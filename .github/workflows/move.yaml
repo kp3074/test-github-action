@@ -8,4 +8,4 @@ jobs:
   call-workflow-passing-data:
     uses: kp3074/reusable-workflow/.github/workflows/cicd.yaml@main
     with:
-      config-path: TESTGITHUBACTION
+      config-path: TESTGITHUBACTIONN
