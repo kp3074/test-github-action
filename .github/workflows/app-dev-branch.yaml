@@ -1,0 +1,12 @@
+name: Dev branch
+on:
+  push:
+    branches:
+      - "RB-**"
+
+jobs:
+  dev-branch:
+    uses: kp3074/reusable-workflow/.github/workflows/dev-branch.yaml@main
+    with:
+      config-path: TESTGITHUBACTIONN
+      appType: "KUBERNETES"
